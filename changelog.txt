@@ -1,0 +1,9 @@
+Changelog for Mark Read on Reply
+
+0.2
+Added "messagesUpdate" permission for Thunderbird 128.
+Set minimum version to Thunderbird 128.0a1.
+The add-on will further be maintained by Dillinger.
+
+0.1
+First release, original add-on written by Axel G. Rossberg.

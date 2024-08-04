@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Mark Read on Reply",
+    "description": "Mark messages as read when you reply to them",
+    "version": "0.2",
+    "author": "Axel G. Rossberg, Dillinger",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "axel@rossberg.net",
+            "strict_min_version": "128.0a1"
+        }
+    },
+    "permissions": [
+  "compose",
+  "messagesRead",
+  "messagesModify",
+  "messagesUpdate"
+    ],
+    "background": {
+  "scripts": ["src/replymarksread.js"],
+  "persistent": true
+    }
+}
